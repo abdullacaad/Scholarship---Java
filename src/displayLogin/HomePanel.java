@@ -41,7 +41,7 @@ public class HomePanel extends MyPanel{
 	 * displays top part of Home panel, with title
 	 */
 	private void displayNorth(){
-		String title = "U of C Scholarship Program";
+		String title = "Scholarship Management System";
 		lblTitle = new MyLabel(title, Size.defaultLblTitleFontSize);
 		north.add(lblTitle, "cell 0 0, center");
 	}
